@@ -1,0 +1,114 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.logo{
+  position: relative;
+  bottom: 20px;
+  
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+footer {
+  text-align: right;
+  color:black;
+  background-color:gainsboro;
+  font-size: larger;
+}
+
+.word{
+  color: midnightblue;
+}
+
+
+.tile-image{
+  width: 300px;
+  float: left;
+  position: relative;
+  right: 20px;
+ 
+}
+
+.rightcard{
+  width: 40%;
+  float: right;
+}
+.leftcard{
+  width: 50%;
+  float: left;
+}
+body {
+  font-family: 'Sono', sans-serif;
+  background-color: #adcad6;
+}
+.pricing-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  position: relative;
+  bottom: 30px;
+}
+.plan-button{
+  background:#ffd23f;
+  border-radius: 15%;
+  color: midnightblue;
+  border: none;
+}
+.pricing-plan{
+  background:#846c5b;
+  width: 400px;
+  flex-shrink: 0;
+  padding: 5px;
+  text-align: center;
+}
+.plan-title{
+  font-weight: 700;
+}
+.plan-price{
+  font-size: x-large;
+  font-weight: 700;
+}
+.plan-features{
+  list-style: none;
+  color: #ffd23f;
+}
+
+@media(min-width:319px) and (max-width:680px){
+  .logo{
+    width: 300px;
+  }
+  h1{
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .leftcard, .rightcard{
+    display: block;
+    width: 100%;
+
+  }
+  div img{
+    object-fit: cover;
+    width: 100%;
+  }
+  .pricing-container{
+    height: 100vh;
+    flex-direction: column;
+  }
+
+}
+
+
+

@@ -1,0 +1,62 @@
+h2, #me,#aboutme,a {
+    color: white;
+}
+body{
+    background-color: black;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.name{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hello{
+    font-size: 3em;
+}
+span{
+    font-size: 2rm;
+}
+#aboutme{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 15pt;
+}
+.resume{
+    position: absolute;
+    bottom: 800px;
+    left: 800px;
+    font-weight: 800;
+}
+.contact{
+    position: absolute;
+    bottom: 800px;
+    left: 990px;
+}
+.work{
+    position: absolute;
+    bottom: 780px;
+    left: 800px;   
+}
+.work, .resume, .contact{
+    font-weight: 800;
+}
+@media (max-height: 2150px) {
+    .resume{
+        position: absolute;
+        top: 50px;
+        left: 500px;
+    }
+    .contact{
+        position: absolute;
+        top: 50px;
+        left: 650px;
+    }
+    .work{
+        position: absolute;
+        top: 50px;
+        left: 800px;       
+    }
+}
+
